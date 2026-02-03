@@ -1,0 +1,12 @@
+Extract entities and relationships from the text.
+
+Return ONLY valid JSON in this format:
+
+{
+  "entities": [
+    {"id": "string", "type": "PERSON|ORGANIZATION|GEO|EVENT", "description": "string"}
+  ],
+  "relationships": [
+    {"source": "entity_id", "target": "entity_id", "type": "string", "description": "string"}
+  ]
+}
