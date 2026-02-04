@@ -1,6 +1,5 @@
 .env
 venv
 Dockerfile
-add_embeddings.py
 cache
 test.py
